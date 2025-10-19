@@ -1,0 +1,3 @@
+CREATE TABLE teste(
+	id UUID PRIMARY KEY
+);
