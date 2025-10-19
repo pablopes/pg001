@@ -1,4 +1,0 @@
-CREATE TABLE teste(
-	id UUID PRIMARY KEY,
-	name TEXT
-);
