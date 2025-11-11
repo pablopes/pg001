@@ -8,3 +8,7 @@ CREATE TABLE tb_onboarding_process(
     created_at TIMESTAMP WITH TIME ZONE NOT NULL,
     updated_at TIMESTAMP WITH TIME ZONE NOT NULL
 );
+
+CREATE INDEX idx_onboarding_status ON tb_onboarding_process(status);
+CREATE INDEX idx_onboarding_tenant ON tb_onboarding_process(tenant_id);
+CREATE INDEX idx_onboarding_user ON tb_onboarding_process(user_id);
